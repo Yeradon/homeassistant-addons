@@ -1,5 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Octoeverywhere Bambu Connect
+# renovate: image=octoeverywhere/octoeverywhere
 version: "3.6.5"
 slug: octoeverywhere
 description: A addon to host Octoeverywhere bambulab middleware on your homeassistant os device
@@ -18,3 +19,5 @@ schema:
   ACCESS_CODE: str
   PRINTER_IP: str
 image: "octoeverywhere/octoeverywhere"
+
+
