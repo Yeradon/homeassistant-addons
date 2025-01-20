@@ -1,0 +1,20 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: Octoeverywhere Bambu Connect
+version: "3.6.5"
+slug: octoeverywhere
+description: A addon to host Octoeverywhere bambulab middleware on your homeassistant os device
+url: "https://github.com/yeradon/homeassistant-addons"
+init: false
+legacy: true
+map:
+  - share:rw
+options:
+  CONNECTION_MODE: "local"
+schema:
+  BAMBU_CLOUD_ACCOUNT_EMAIL: email?
+  BAMBU_CLOUD_ACCOUNT_PASSWORD: password?
+  CONNECTION_MODE: list(cloud|local)
+  SERIAL_NUMBER: str
+  ACCESS_CODE: str
+  PRINTER_IP: str
+image: "octoeverywhere/octoeverywhere"

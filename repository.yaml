@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Yeradons homeassistant addons
+url: 'https://github.com/yeradon/homeassistant-addons'
+maintainer: Yeradon <awesome@example.com>
