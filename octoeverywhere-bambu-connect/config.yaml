@@ -9,6 +9,12 @@ init: false
 legacy: true
 map:
   - share:rw
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
 options:
   CONNECTION_MODE: "local"
 schema:
