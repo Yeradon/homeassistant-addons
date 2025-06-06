@@ -1,0 +1,20 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: Simply-Print Bambulab Client
+# renovate: image="simplyprint/simplyprint-bambu-lab"
+version: "1.0.0-beta.72"
+slug: simplyprint-bambu
+description: An addon to host SimplyPrint Bambulab middleware on your homeassistant os device
+url: "https://github.com/yeradon/homeassistant-addons"
+init: false
+legacy: true
+map:
+  - share:rw
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+image: "simplyprint/simplyprint-bambu-lab"
+ingress: true
+ingress_port: 8000
