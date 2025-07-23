@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Octoeverywhere Bambu Connect
 # renovate: image=octoeverywhere/octoeverywhere
-version: "4.3.6"
+version: "4.3.7"
 slug: octoeverywhere
 description: A addon to host Octoeverywhere bambulab middleware on your homeassistant os device
 url: "https://github.com/yeradon/homeassistant-addons"
